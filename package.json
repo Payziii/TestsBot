@@ -1,0 +1,15 @@
+{
+  "name": "testsbot",
+  "version": "0.1.0",
+  "description": "Telegram bot for creating and passing tests",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "tests"
+  ],
+  "author": "Payziii",
+  "license": "MIT"
+}
