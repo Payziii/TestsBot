@@ -6,3 +6,17 @@ module.exports = async function createTest(conversation, ctx) {
     test.name = answer.message.text;
     await ctx.reply(`Выбранное название для теста: ${test.name}`);
   }
+
+/* Переменная test
+{
+  name: Название теста
+  questions: [
+    {
+      title: Заголовок первого вопроса
+      correct_answer: Правильный ответ,
+      incorrect_answers: Массив из неправильных ответов
+    }
+    ...
+  ]
+}
+*/
